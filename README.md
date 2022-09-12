@@ -8,6 +8,7 @@ ssh -L 8188:localhost:8188 remote_server_username@remote_server_ip
  
 ### type in remote server after login:
 jupyter notebook --no-browser --port=8188
+
 you can change 8188 port. 
 
 
@@ -20,5 +21,6 @@ ssh -L 8188:localhost:8188 remote_server_username@remote_server_ip
 
 ### type in remote server after login:
 jupyter lab --no-browser --port=8188
+
 you can change 8188 port. 
 
